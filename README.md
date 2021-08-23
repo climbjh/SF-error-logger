@@ -9,11 +9,11 @@ the appropriate folders in your SF Org codebase.  (ie. all Apex classes/meta > '
 
 ##### What's Included:
 
- - The ErrorLogging and ErrorHelper classes which create the logs
- - The Error_Log__c custom object, which has custom list views for past 24 hours and past 7 days
- - DeleteErrorLogs schedulable class, along with a related batch process for regular purge of logs
- - An "Error Logs" custom tab for use in any app
- - Test classes with 100% coverage for all Apex utility classes
+ * The ErrorLogging and ErrorHelper classes which create the logs
+ * The Error_Log__c custom object, which has custom list views for past 24 hours and past 7 days
+ * DeleteErrorLogs schedulable class, along with a related batch process for regular purge of logs
+ * An "Error Logs" custom tab for use in any app
+ * Test classes with 100% coverage for all Apex utility classes
 
  Once installed, this package should allow tracking for any individual Exception or bulk DML failed operations.
 
