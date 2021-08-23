@@ -7,7 +7,7 @@ logging and tracking errors that occure throughout the Apex landscape.
 To implement this tool, simply download the package of files and copy/paste them into
 the appropriate folders in your SF Org codebase.  (ie. all Apex classes/meta > 'classes' folder)
 
-##### What is included:
+##### What's Included:
 
  - The ErrorLogging and ErrorHelper classes which create the logs
  - The Error_Log__c custom object, which has custom list views for past 24 hours and past 7 days
