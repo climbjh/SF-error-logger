@@ -5,7 +5,7 @@ This easy-to-implement utility can be dropped into any SalesForce Org to begin
 logging and tracking errors that occure throughout the Apex landscape.
 
 To implement this tool, simply download the package of files and copy/paste them into
-the appropriate folders in your SF Org codebase.  (ie. all Apex classes/meta > 'classes' folder)
+the appropriate folders in your SF Org codebase.  (ie. all Apex classes/meta > 'classes' folder, custom Error_Log__c object > 'objects' folder)
 
 ##### What's Included:
 
@@ -38,7 +38,7 @@ Database.SaveResult[] sr = Database.insert(recordList);
 ErrorLogging.resultsByError(sr);
 ```
 
-If you want to capture all errors in one log with associated ID's or indexes (depending on operation),
+If you want to capture all errors in one log with associated IDs or indexes (depending on operation),
 use the .resultsByID() method:
 
 ```
