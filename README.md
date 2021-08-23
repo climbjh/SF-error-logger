@@ -1,5 +1,5 @@
 # Salesforce Error Logger
-#### Developed by: Evan Matthews, August '21
+### Developed by: Evan Matthews, August '21
 
 This easy-to-implement utility can be dropped into any SalesForce Org to begin
 logging and tracking errors that occure throughout the Apex landscape.
@@ -15,7 +15,9 @@ the appropriate folders in your SF Org codebase.  (ie. all Apex classes/meta > '
  * An "Error Logs" custom tab for use in any app
  * Test classes with 100% coverage for all Apex utility classes
 
+
  Once installed, this package should allow tracking for any individual Exception or bulk DML failed operations.
+
 
  ### ErrorLogging Class Usage
 
