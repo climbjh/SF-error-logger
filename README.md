@@ -1,5 +1,5 @@
 # Salesforce Error Logger
-### Developed by: Evan Matthews, August '21
+#### Developed by: Evan Matthews, August 2021
 
 This easy-to-implement utility can be dropped into any SalesForce Org to begin
 logging and tracking errors that occure throughout the Apex landscape.
